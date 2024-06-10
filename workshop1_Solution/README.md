@@ -111,17 +111,12 @@ npm start
 
 例：Copilot ChatのクリップアイコンからCalcurator.jsを選択し、`calcurator関数のテストコードをApp.test.jsから呼び出したい`と記載し、`npm test`を実行（あらかじめcalculator関数をexportしておくと良いです）
 
+### ログ
+Outputタブにログが表示されていることを確認してください。ログはCopilotおよびCopilot Chatのコマンドや提案の履歴を表示します。
 
 
 
 
+---
 
-
-
-
-
-
-
-
-
-(This repository is also known as copilot-operations-demo)
+[This repository is also known as copilot-operations-demo]
