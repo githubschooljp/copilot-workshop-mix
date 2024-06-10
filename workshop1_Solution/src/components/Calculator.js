@@ -53,27 +53,7 @@ function Calculator() {
             number2 = parseFloat(displayValue);
 
             // perform the calculation
-            switch (operator) {
-                case '+':
-                    result = number1 + number2;
-                    break;
-                case '-':
-                    result = number1 - number2;
-                    break;
-                case '*':
-                    result = number1 * number2;
-                    break;
-                case '/':
-                    if (number2 !== 0) {
-                        result = number1 / number2;
-                    } else {
-                        alert("Error: Division by zero");
-                        return;
-                    }
-                    break;
-                default:
-                    return;
-            }
+            result = calculate(number1, number2, operator);
 
             // round the result down to 2 decimal places
             result = Math.round(result * 100) / 100;
@@ -131,6 +111,28 @@ function Calculator() {
             </div>
         </div>
     );
+}
+
+export function calculate(number1, number2, operator) {
+    let result;
+    switch (operator) {
+        case '+':
+            result = number1 + number2;
+            break;
+        case '-':
+            result = number1 - number2;
+            break;
+        case '*':
+            result = number1 * number2;
+            break;
+        case '/':
+            result = number1 / number2;
+            break;
+        case '%':
+            result = number1 % number2;
+            break;
+    }
+    return result;
 }
 
 export default Calculator;

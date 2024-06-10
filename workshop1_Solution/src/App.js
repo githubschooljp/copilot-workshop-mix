@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react'
-import GitHubHeader from './components/GitHubHeader'
+import GitHubHeader from './components/GitHubHeader.js'
 import Calculator from './components/Calculator.js'
 
 function App() {
