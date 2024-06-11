@@ -42,6 +42,7 @@ Copilotと効果的に対話するためには、Copilotはあなたの指導と
 7. ビルド実行してみます
 
 ```bash
+mvn clean install
 ./mvnw spring-boot:run
 ``` 
 Tips:コマンドを忘れてもCopilot Chatで聞いてみるのもいいでしょう
