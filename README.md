@@ -4,8 +4,8 @@
 既存のアプリケーションを使用して、GitHub CopilotとGitHub Copilot Chatの基本的な機能を学びます。
 
 ## Prerequisites
-- NodeJS: v19.7.0 or later
-- NPM: v9.5.0 or later
+- NodeJS
+- NPM
 - VSCode Extensions:
   - [Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
   - [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
