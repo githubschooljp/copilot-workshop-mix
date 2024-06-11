@@ -1,27 +1,27 @@
 # Workshop Checklist
 
 ## User Interface
--[ ] GitHub Copilot
--[ ] GitHub Copilot Chat
+- [ ] GitHub Copilot
+- [ ] GitHub Copilot Chat
 
 ## Topics
 
--[ ] Suggestionの表示と受け入れ
-  - コード提案
-  - コメント入力からの提案
-  - 別ペインで提案一覧の表示(Ctrl+Return)
+- [ ] Suggestionの表示と受け入れ
+  - [ ] コード提案
+  - [ ] コメント入力からの提案
+  - [ ] 別ペインで提案一覧の表示(Ctrl+Return)
 
--[ ] Chatコマンドの使用
-  - スラッシュコマンド
-  - ＠ # コマンド（一部IDE）
-  - Referenceの確認とコンテキストの拡充（@workspace, @file, @selection、クリップアイコン）（一部IDE）
-  - チャット内提案の受け入れ（クリップボード、エディタへのコピー、新規ファイル、ターミナル）
+- [ ] Chatコマンドの使用 （一部IDE）
+  - [ ] スラッシュコマンド (/help, /explain, /tests, /fix)
+  - [ ] ＠ # コマンド （@workspace, #file, #selection, #terminalSelection, #terminalLastCommand)
+  - [ ] Referenceの確認とコンテキストの拡充（@workspace, #file, #selection、クリップアイコン）
+  - [ ] チャット内提案の受け入れ（クリップボード、エディタへのコピー、新規ファイル、ターミナル）
 
--[ ] バブルやスパークルアイコンの利用
--[ ] Inline Chatの利用
--[ ] Settings
--[ ] Outputウィンドウ（Copilot & Copilot Chat)
--[ ] Publicコードと一致するケース 
+- [ ] バブルやスパークルアイコンの利用
+- [ ] Inline Chatの利用
+- [ ] Settings
+- [ ] Outputウィンドウ（Copilot & Copilot Chat)
+- [ ] Publicコードと一致するケース 
 
 ## References
 - [GitHub Copilot](https://github.com/features/copilot)
