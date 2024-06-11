@@ -1,9 +1,10 @@
 # Workshop 1
+既存のアプリケーションを使用して、GitHub CopilotとGitHub Copilot Chatの基本的な機能を学びます。
 
 ## Prerequisites
-- NodeJS: v19.7.0
-- NPM: v9.5.0
-- VSCode & VSCode Extensions:
+- NodeJS: v19.7.0 or later
+- NPM: v9.5.0 or later
+- VSCode Extensions:
   - [Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
   - [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
 
@@ -87,7 +88,7 @@ npm start
 6. 55行目にカーソルを移動し、Enterキーを押します。
 7. 前回行った手順と同様にスパークルアイコンで`/fix`を表示してみましょう。
 8. 提案を見たら今度は受け入れないでください。代わりに、提案を元に手動で修正してみましょう。
-9. 56行目に、`swtich`と入力しはじめましょう。
+9. 56行目に、`switch`と入力しはじめましょう。
 10. Copilotが提案するコードを確認し、提案を受け入れてください。
 11. 割り算で止まる可能性もありますので、Copilotと一緒にペアプロしてください。
 12. コードを保存し、ブラウザで変更がリアルタイムに反映されていることを確認します。
